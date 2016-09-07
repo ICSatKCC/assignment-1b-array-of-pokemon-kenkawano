@@ -1,4 +1,4 @@
-# Assignment1b-ArrayofPokemon
+# Assignment1b-ArrayofPokemon - Due Monday 9/19
 
 Create an interactive program that manages an array of Pokemon objects
 ---
