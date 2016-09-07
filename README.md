@@ -42,4 +42,19 @@ What would you like to do? _
    * If a 7th Pokemon is added, the second one that was entered (array[1]) should be deleted to give way to the new Pokemon, and so on. 
  * The user should be able to keep entering new Pokemon forever, but the array should only store the 5 newest.
 
+Grading
+---
+Assignment 1b is worth 100 points.
 
+Rubric:
+
+| Must pass all JUnit tests for full credit       |  pts  |
+| :-----------------------------------------------: | ----:|
+| Construct Array of Pokemon                      |  10   |
+| Continuous menu looping                         |  10   |
+| Menu input validation                           |  15   |
+| Array full/replace old Pokemon entries with new: |  20   |
+| Constructing new Pokemon                        |  15   |
+| Printing of all Pokemon                         |  10   |
+| Commenting and style                            |  20   |
+| **Total** | **100** |
