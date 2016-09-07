@@ -35,12 +35,12 @@ What would you like to do? _
 
 ### Array Management ###
 
- * The array of Pokemon will be of size 5. 
+ * The array of Pokemon will be of size 6. 
    * Declare this size as a constant at the top of the code. 
- * This array will only keep the last 5 Pokemon entered. 
-   * If the user enters a 6th Pokemon, the first Pokemon that was stored (array[0]) should be deleted to give way to the new one. 
-   * If a 7th Pokemon is added, the second one that was entered (array[1]) should be deleted to give way to the new Pokemon, and so on. 
- * The user should be able to keep entering new Pokemon forever, but the array should only store the 5 newest.
+ * This array will only keep the last 6 Pokemon entered. 
+   * If the user enters a 7th Pokemon, the first Pokemon that was stored (array[0]) should be deleted to give way to the new one. 
+   * If a 8th Pokemon is added, the second one that was entered (array[1]) should be deleted to give way to the new Pokemon, and so on. 
+ * The user should be able to keep entering new Pokemon forever, but the array should only store the 6 newest.
 
 Grading
 ---
