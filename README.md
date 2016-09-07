@@ -3,14 +3,14 @@
 Create an interactive program that manages an array of Pokemon objects
 ---
 
-Write a driver (main method) program called PokeArray.java 
+Write a driver (main method) program for your Pokemon class called PokeArray.java 
 
 ### Menu ###
 The program should display the following interactive menu to the user:
 ```
-1. Add Pokemon
-2. print all Pokemon
-0. exit
+1. Add a Pokemon
+2. Print all Pokemon
+0. Exit the program
 
 What would you like to do? _
 ```
@@ -31,11 +31,15 @@ What would you like to do? _
     Pokemon <array index>:
     ```
   *  And call that Pokemon's toString() method
-* **Input must be validated.** If an invalid entry is given, **the program should not crash!** A suitable error message should be displayed followed by the menu again. 
+* **Menu input must be validated.** If an invalid entry is given, **the program should not crash!** A suitable error message should be displayed followed by the menu again. Assume the input entered for the Pokemon constructor (after menu choice 1) will be correct for now. We're going to work on PokemonExceptions in a later assignment.
 
 ### Array Management ###
 
-The array of Pokemon will be of size 5. Please declare this size as a constant at the top of the code. This array of Pokemon will only keep the last 5 Pokemon entered. What this means is that if the user enters 6 Pokemon then the first one that was stored should be deleted to give way to Pokemon 6. When Pokemon 7 is added then the second one that was entered should be deleted to give way to Pokemon 7 and so on. 
-The PokeArrat.java class should allow users to print all the Pokemon stored at any given time.
+ * The array of Pokemon will be of size 5. 
+   * Declare this size as a constant at the top of the code. 
+ * This array will only keep the last 5 Pokemon entered. 
+   * If the user enters a 6th Pokemon, the first Pokemon that was stored (array[0]) should be deleted to give way to the new one. 
+   * If a 7th Pokemon is added, the second one that was entered (array[1]) should be deleted to give way to the new Pokemon, and so on. 
+ * The user should be able to keep entering new Pokemon forever, but the array should only store the 5 newest.
 
 
