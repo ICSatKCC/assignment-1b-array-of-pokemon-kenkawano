@@ -67,7 +67,7 @@ Assignment 1b is worth 100 points.
 
 Rubric:
 
-| Must pass all JUnit tests for full credit       |  pts  |
+|    |  pts  |
 | :-----------------------------------------------: | ----:|
 | Construct Array of Pokemon                      |  10   |
 | Continuous menu looping and validation          |  10   |
